@@ -1,0 +1,34 @@
+/* Este é um comentário em CSS */
+
+h1{
+    color:white; /* alterando a cor da fonte */
+    font-size: 60px; /*mudar o tamanho da fonte*/
+    font-family:'Franklin Gothic Medium'; /*alterar a fonte*/
+    text-align: center; /*alinhas o texto, podendo ser: center, right, left*/
+    /*background-color: black;*/ /*cor sólida no background*/
+    background-image: linear-gradient(black,blue) /*background com gradiente*/
+}
+
+body {
+    background-color:lightcyan; /*alterar a cor do fundo*/
+}
+
+p {
+    font-size: 50px;
+}
+
+ul {
+    font-size:40px;
+    list-style-type: circle; /* estilo da lista: circle, square, upper-roman, lower-roman*/
+}
+
+img{
+    width: 240px; /*largura*/
+    height: 240px;  /*altura*/
+    border-radius:200px; /*bordas arredondadas*/
+    /*opacity: 0.5; nível de transparência*/
+}
+
+img:hover{
+    opacity: 0.5;
+}
